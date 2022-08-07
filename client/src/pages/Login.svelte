@@ -4,7 +4,7 @@
 </script>
   
 <div class="flex flex-col h-screen w-screen justify-center content-center items-center"> 
-  <div class="flex flex-row shadow-lg rounded h-3/4 w-3/4 justify-center items-center">
+  <div class="flex flex-row shadow-lg rounded h-5/6 w-3/4 justify-center items-center">
     <div class="justify-center items-center bg-primary-700 h-full lg:flex hidden lg:w-1/2 rounded-bl-md rounded-tl-md">
       <LottiePlayer
         src="animations/5-star.json"
@@ -16,7 +16,7 @@
         width="{300}"
       />  
     </div>
-    <form class="flex flex-col lg:p-12 md:w-1/2 sm:w-full justify-center items-center">
+    <form class="flex flex-col p-8 lg:p-12 md:w-1/2 sm:w-full justify-center items-center">
       <img class="h-24 mb-5" src="suggest-bird.png" alt="Suggest Bird logo">
       <h1 class="mb-8 text-3xl font-bold">Welcome Back</h1>
       <Input type="email" name="email" />
@@ -33,10 +33,11 @@
         </a>
       </div>
       <Button text="Login" />
+      <Button text="Login with Google" isThirdParty />
       <p class="mt-5 text-md">
         Don't have an account?
         <a 
-          href="/sign-up"
+          href="/signup"
           class="text-primary-700 hover:text-primary-500">
           Sign Up
         </a>

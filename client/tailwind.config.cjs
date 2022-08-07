@@ -17,11 +17,16 @@ module.exports = {
       },
       gray: colors.gray,
       white: colors.white,
-      black: colors.black
+      black: colors.black,
+      google: {
+        "white": "#FFFFFF",
+        "blue": "#4285F4"
+      }
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      google: ['Roboto', 'sans-serif'],
     },
     extend: {
       spacing: {
